@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Website</title>
+    <style>
+        /* Reset default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        /* Navigation styles */
+        nav ul {
+            list-style-type: none;
+            margin-top: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Main content styles */
+        main {
+            padding: 20px;
+        }
+
+        /* Course section styles */
+        .course {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .course h2 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .course p {
+            margin-bottom: 10px;
+        }
+
+        .course a {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 8px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .course a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer p {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>E-Learning Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="course">
+            <h2>Introduction to Programming</h2>
+            <p>This course will introduce you to the basics of programming.</p>
+            <a href="#">Enroll Now</a>
+        </section>
+
+        <section class="course">
+            <h2>Data Science Fundamentals</h2>
+            <p>Learn the fundamental concepts of data science and analysis.</p>
+            <a href="#">Enroll Now</a>
+        </section>
+
+        <section class="course">
+            <h2>Web Development Bootcamp</h2>
+            <p>Master the skills needed to become a professional web developer.</p>
+            <a href="#">Enroll Now</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 E-Learning Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
